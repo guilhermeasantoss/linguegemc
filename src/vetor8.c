@@ -9,7 +9,7 @@ int cvbin(char x){
     while ( v > 0 ){
         resto = v%2;
         v=v /2;
-        rs=mult*rs+resto;
+        rs=mult*resto+rs;
         mult*=10;
         
     }
@@ -27,7 +27,7 @@ int main (){
 
 
 
-    printf("%c========================%d=========%i=================%p\n",nome[i],nome[i],nome[i],&nome[i]);
+    printf("%c========================%d=========%i=================%p\n",nome[i],nome[i],cvbin(nome[i]),&nome[i]);
     }
     return 0;
 }
