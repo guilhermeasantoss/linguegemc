@@ -1,0 +1,9 @@
+
+Nome :chico moedas
+
+Salário : R$ 1200.00
+liquido: R$ 
+Nome :g
+
+Salário : R$ 0.00
+liquido: R$ 
